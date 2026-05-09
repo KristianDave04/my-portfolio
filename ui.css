@@ -228,21 +228,15 @@ body { font-family: 'Arial', sans-serif; }
 }
 
 /* Card centered above circle */
-/* Card centered above circle */
 .card {
   position: absolute;
-  bottom: 15%; /* place above circle */
+  bottom: 10%; /* place above circle */
   left: 50%;
   transform: translateX(-50%);
   display: none; /* hidden by default */
   margin-bottom: 1rem;
   z-index: 5;
-
-  /* Responsive layout */
-  display: flex;
   flex-wrap: wrap;       /* allow wrapping on smaller screens */
-  justify-content: center;
-  gap: 0.5rem;
 }
 
 .card img {
