@@ -240,9 +240,10 @@ body { font-family: 'Arial', sans-serif; }
 }
 
 .card img {
-  width: 130%;           /* responsive width */
-  height: 130;          /* keep aspect ratio */
+  height: 130px;
+  width: 130px;
   border-radius: 8px;
+  margin: 0 0.5rem;
 }
 
 /* Fade-In Animation */
