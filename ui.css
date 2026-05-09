@@ -241,10 +241,8 @@ body { font-family: 'Arial', sans-serif; }
 
 .card img {
   width: 130%;           /* responsive width */
-  max-width: 130px;      /* limit size per image */
   height: 130;          /* keep aspect ratio */
   border-radius: 8px;
-  flex: 1 1 auto;        /* allow flexible resizing */
 }
 
 /* Fade-In Animation */
