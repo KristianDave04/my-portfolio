@@ -46,7 +46,7 @@ body { font-family: 'Arial', sans-serif; }
   justify-content: center;
   text-align: center;
   height: 100vh;
-  background: url("../assets/personal\ pic.jpg") no-repeat center center/cover;
+  background: url("../assets/personal pic.jpg") no-repeat center center/cover;
   position: relative;
   color: #fff;
 }
@@ -240,9 +240,9 @@ body { font-family: 'Arial', sans-serif; }
 }
 
 .card img {
-  width: 100%;           /* responsive width */
-  max-width: 150px;      /* limit size per image */
-  height: auto;          /* keep aspect ratio */
+  width: 130%;           /* responsive width */
+  max-width: 130px;      /* limit size per image */
+  height: 130;          /* keep aspect ratio */
   border-radius: 8px;
   flex: 1 1 auto;        /* allow flexible resizing */
 }
