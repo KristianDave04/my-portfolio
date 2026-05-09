@@ -230,20 +230,38 @@ body { font-family: 'Arial', sans-serif; }
 /* Card centered above circle */
 .card {
   position: absolute;
-  bottom: 10%; /* place above circle */
-  left: 50%;
+  top: 11%;
+  bottom: 11%; /* place above circle */
+  left: 35%;
   transform: translateX(-50%);
   display: none; /* hidden by default */
   margin-bottom: 1rem;
   z-index: 5;
-  flex-wrap: wrap;       /* allow wrapping on smaller screens */
+
+  /* Grid layout */
+  grid-template-columns: repeat(3, 1fr); /* default: 3 columns */
+  gap: 0.5rem;
+  max-width: 90vw;
 }
 
+/* Card images responsive */
 .card img {
+  width: 130px;           /* fill grid cell */
   height: 130px;
-  width: 130px;
   border-radius: 8px;
-  margin: 0 0.5rem;
+}
+
+/* Mobile: 2 on top, 1 below */
+@media (max-width: 600px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+    /* Center the 3rd image */
+  .card img:nth-child(3) {
+    grid-column: 1 / span 2;   /* span across both columns */
+    justify-self: center;      /* center horizontally */
+  }
 }
 
 /* Fade-In Animation */
