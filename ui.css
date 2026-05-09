@@ -228,21 +228,29 @@ body { font-family: 'Arial', sans-serif; }
 }
 
 /* Card centered above circle */
+/* Card centered above circle */
 .card {
   position: absolute;
-  bottom: 10%; /* place above circle */
+  bottom: 100%; /* place above circle */
   left: 50%;
   transform: translateX(-50%);
   display: none; /* hidden by default */
   margin-bottom: 1rem;
   z-index: 5;
+
+  /* Responsive layout */
+  display: flex;
+  flex-wrap: wrap;       /* allow wrapping on smaller screens */
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .card img {
-  height: 130px;
-  width: 130px;
+  width: 100%;           /* responsive width */
+  max-width: 150px;      /* limit size per image */
+  height: auto;          /* keep aspect ratio */
   border-radius: 8px;
-  margin: 0 0.5rem;
+  flex: 1 1 auto;        /* allow flexible resizing */
 }
 
 /* Fade-In Animation */
