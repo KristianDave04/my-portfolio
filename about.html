@@ -6,74 +6,68 @@
   <title>About</title>
   <link rel="stylesheet" href="ui.css">
 </head>
-<body class="about-page">
-  <header>
-    <nav class="navbar">
-      <div class="logo">ARGATE</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<body class="home-page">
+  <div class="monitor-container">
+    <div class="screen-frame">
+      <div class="monitor-content">
+        
+        <!-- Left Terminal UI -->
+        <section class="terminal-ui">
+          <!-- Grid Menu -->
+          <div class="grid-menu">
+            <div class="menu-item">
+              <a href="index.html"><div class="icon-box"></div><span>TIMEDOOR</span></a>
+            </div>
+            <div class="menu-item">
+              <a href="about.html" class="active-program">
+                <img src="../assets/projects/idle/miss-minute-idle-0.png" alt="Miss Minutes" class="menu-icon">
+                <span>MISS MINUTES</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="project.html"><div class="icon-graph"></div><span>TIMELINE</span></a>
+            </div>
+            <div class="menu-item">
+              <a href="contact.html"><div class="icon-folder"></div><span>DOCUMENTS</span></a>
+            </div>
+          </div>
 
-  <!-- About Hero -->
-  <section class="about-hero">
-    <div class="about-content fade-in">
-      <h1>About Me</h1>
-      <p>My name is KRISTIAN DAVE ARGATE. I build immersive games, interactive web apps, and responsive UI systems.</p>
+  <!-- Footer Stats -->
+  <div class="footer-stats">
+    <span>05.12.2026</span>
+    <span>0231.47 // 307741</span>
+  </div>
+</section>
+        
+<!-- Right Side -->
+<section class="profile-card-container">
+
+  <div class="profile-box fade-in">
+      <!-- Toolbar Buttons ABOVE and CENTERED -->
+  <div class="info-toolbar">
+    <button onclick="showInfo('skills')">SKILLS</button>
+    <button onclick="showInfo('hobbies')">HOBBIES</button>
+    <button onclick="showInfo('shows')">SHOWS</button>
+    <button onclick="showInfo('books')">BOOKS</button>
+    <button onclick="showInfo('other')">INFO</button>
+  </div>
+
+    <!-- Info Display -->
+    <div id="info-display" class="profile-info">
+      <h1 class="glitch-text">ABOUT ME </h1>
+      <p>
+        I am Kristian Dave B. Argate and currently a BSIT-2B student with a growing passion for technology and development. 
+        My interest in this field began back in high school while playing games; I discovered a YouTube video that explained how to make games step by step. 
+        That moment inspired me to pursue this course later on, because I realized I could also create the things I once admired, and over time I became better at coding. 
+        My goal as a developer is to build, learn, and create great applications that can help others in the future. 
+        I also aspire to design and develop unique games that I can be proud of, showcasing both creativity and technical skill.
+      </p>
     </div>
-  </section>
-
-  <!-- Alternate Info Sections -->
-<section class="info-section left fade-in">
-  <div class="circle" data-images="assets/images/hobby1.jpg,assets/images/hobby2.jpg">
-    <img src="assets/images/hobby-logo.png" alt="Hobbies Logo">
-    <div class="card"></div>
-  </div>
-  <div class="info-text">
-    <h1>Hobbies</h1>
-    <p>fav hobies temporary text here</p>
   </div>
 </section>
-
-<section class="info-section right fade-in">
-  <div class="circle" data-images="../assets/fav show/avengers-endgame.jpg, ../assets/fav show/f4.jpg, ../assets/fav show/xmen.jpg">
-    <img src="../assets/fav show/logo.png" alt="Marvel Logo">
-    <div class="card"></div>
+      </div>
+    </div>
   </div>
-  <div class="info-text">
-    <h1>Favourite Show</h1>
-    <p><br>Marvel Cinematic Universe I love the story that build over the years and their interconnected stories.</p>
-  </div>
-</section>
-
-<section class="info-section left fade-in">
-  <div class="circle" data-images="assets/images/book1.jpg,assets/images/book2.jpg">
-    <img src="assets/images/book-logo.png" alt="Books Logo">
-    <div class="card"></div>
-  </div>
-  <div class="info-text">
-    <h1>Favourite Books</h1>
-    <p>fav books here</p>
-  </div>
-</section>
-
-  <!-- Skills Section -->
-<section class="skills-section fade-in">
-  <h2>Skills</h2>
-  <ul class="skills-list">
-    <li>HTML / CSS / JavaScript</li>
-    <li>PHP & SQL</li>
-    <li>Unity / Godot / Ren’Py</li>
-    <li>Responsive UI/UX Design</li>
-    <li>Retro CRT/VHS Effects</li>
-    <li>Android Build & Asset Integration</li>
-  </ul>
-</section>
-
-
-  <script src="function.js"></script>
+  <script src="function.js"></script> 
 </body>
 </html>
