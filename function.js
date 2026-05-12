@@ -24,8 +24,8 @@
           <div class="card-grid">
             <div class="card"><img src="../assets/hobbies/code.png" alt="Hobby 1"><p>Coding at my free time as well learning it</p></div>
             <div class="card"><img src="../assets/hobbies/onepis.jpg" alt="Hobby 2"><p>Watching One Piece and others movies</p></div>
-            <div class="card"><img src="../assets/hobbies/hobbie.jpg" alt="Hobby 3"><p>At my free time, I enjoy reading books</p></div>
-                        <div class="card"><img src="../assets/hobbies/hobbie.jpg" alt="Hobby 3"><p>I love drawing some digital art</p></div>
+            <div class="card"><img src="../assets/fav books/sherlock.jpg" alt="Hobby 3"><p>At my free time, I enjoy reading books</p></div>
+            <div class="card"><img src="../assets/hobbies/digital.jpg" alt="Hobby 4"><p>I love drawing some digital art</p></div>
           </div>
         `;
         break;
