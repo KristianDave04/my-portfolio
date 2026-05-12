@@ -3,30 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Portfolio</title>
+  <title>Home</title>
   <link rel="stylesheet" href="ui.css">
 </head>
-<body>
-  <!-- Transparent Navbar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">ARGATE</div>
-      <ul class="nav-links">
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<body class="home-page">
+  <!-- Monitor Container -->
+  <div class="monitor-container">
+    <div class="screen-frame">
+      <div class="monitor-content">
+        
+        <!-- Left Terminal UI -->
+        <section class="terminal-ui">
+          <!-- Grid Menu with Clickable Links -->
+          <div class="grid-menu">
+            <div class="menu-item">
+              <a href="main.html">
+                <div class="icon-box"></div>
+                <span>TIMEDOOR</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="about.html">
+                <img src="../assets/projects/idle/miss-minute-idle-0.png" alt="Miss Minutes" class="menu-icon">
+                <span>MISS MINUTES</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="project.html">
+                <div class="icon-graph"></div>
+                <span>TIMELINE</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="contact.html">
+                <div class="icon-folder"></div>
+                <span>DOCUMENTS</span>
+              </a>
+            </div>
+          </div>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Hello, I'm ARGATE</h1>
-      <p>2nd year | Aspiring Creative Developer & Designer</p>
-      <a href="projects.html" class="btn">View My Work</a>
+          <!-- Footer Stats -->
+          <div class="footer-stats">
+    <span>05.12.2026</span>
+    <span>0231.47 // 307741</span>
+          </div>
+        </section>
+
+        <!-- Right Profile Card -->
+        <section class="profile-card-container">
+          <div class="profile-box fade-in">
+            <div class="profile-img-wrap">
+              <img src="../portfolio copy/assets/personal pic.jpg" alt="ARGATE Profile Picture" class="profile-pic">
+            </div>
+            <div class="profile-info">
+              <h1 class="glitch-text">Hi, I am KD</h1>
+              <p class="subject-tag">2nd year | Aspiring Creative Developer & Designer</p>
+              <a href="project.html" class="tva-btn">VIEW SACRED TIMELINE</a>
+            </div>
+          </div>
+        </section>
+
+      </div>
     </div>
-  </section>
+  </div>
   <script src="function.js"></script>
 </body>
 </html>
