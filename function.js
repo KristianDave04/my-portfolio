@@ -7,13 +7,13 @@
         content = `
           <h1 class="glitch-text">SKILLS</h1>
           <div class="skills-icons">
-            <div><img src="../portfolio copy/assets/icons/html.png" alt="HTML"><span>HTML</span></div>
-            <div><img src="../portfolio copy/assets/icons/css-3.png" alt="CSS"><span>CSS</span></div>
-            <div><img src="../portfolio copy/assets/icons/js.png" alt="JavaScript"><span>JavaScript</span></div>
-            <div><img src="../portfolio copy/assets/icons/php.png" alt="PHP"><span>PHP</span></div>
-            <div><img src="../portfolio copy/assets/icons/database.png" alt="SQL"><span>mySQL</span></div>
-            <div><img src="../portfolio copy/assets/icons/c-.png" alt="C++"><span>C++</span></div>
-            <div><img src="../portfolio copy/assets/icons/c-sharp.png" alt="C#"><span>C#</span></div>
+            <div><img src="../assets/icons/html.png" alt="HTML"><span>HTML</span></div>
+            <div><img src="../assets/icons/css-3.png" alt="CSS"><span>CSS</span></div>
+            <div><img src="../assets/icons/js.png" alt="JavaScript"><span>JavaScript</span></div>
+            <div><img src="../assets/icons/php.png" alt="PHP"><span>PHP</span></div>
+            <div><img src="../assets/icons/database.png" alt="SQL"><span>mySQL</span></div>
+            <div><img src="../assets/icons/c-.png" alt="C++"><span>C++</span></div>
+            <div><img src="../assets/icons/c-sharp.png" alt="C#"><span>C#</span></div>
           </div>
         `;
         break;
@@ -22,10 +22,10 @@
         content = `
           <h1 class="glitch-text">HOBBIES</h1>
           <div class="card-grid">
-            <div class="card"><img src="../portfolio copy/assets/hobbies/code.png" alt="Hobby 1"><p>Coding at my free time as well learning it</p></div>
-            <div class="card"><img src="../portfolio copy/assets/hobbies/onepis.jpg" alt="Hobby 2"><p>Watching One Piece and others movies</p></div>
-            <div class="card"><img src="../portfolio copy/assets/hobbies/hobbie.jpg" alt="Hobby 3"><p>At my free time, I enjoy reading books</p></div>
-                        <div class="card"><img src="../portfolio copy/assets/hobbies/hobbie.jpg" alt="Hobby 3"><p>I love drawing some digital art</p></div>
+            <div class="card"><img src="../assets/hobbies/code.png" alt="Hobby 1"><p>Coding at my free time as well learning it</p></div>
+            <div class="card"><img src="../assets/hobbies/onepis.jpg" alt="Hobby 2"><p>Watching One Piece and others movies</p></div>
+            <div class="card"><img src="../assets/hobbies/hobbie.jpg" alt="Hobby 3"><p>At my free time, I enjoy reading books</p></div>
+                        <div class="card"><img src="../assets/hobbies/hobbie.jpg" alt="Hobby 3"><p>I love drawing some digital art</p></div>
           </div>
         `;
         break;
@@ -34,10 +34,10 @@
         content = `
           <h1 class="glitch-text">FAV SHOWS</h1>
           <div class="card-grid">
-            <div class="card"><img src="../portfolio copy/assets/fav show/logo.png" alt="Marvel"><p>Marvel Cinematic Universe</p></div>
-            <div class="card"><img src="../portfolio copy/assets/fav show/onepis.jpg" alt="Anime"><p>One Piece</p></div>
-                        <div class="card"><img src="../portfolio copy/assets/fav show/hamilton.jpg" alt="Musical"><p>Hamilton</p></div>
-                                    <div class="card"><img src="../portfolio copy/assets/fav show/TGS.jpg" alt="Musical"><p>The Greatest Showman</p></div>
+            <div class="card"><img src="../assets/fav show/logo.png" alt="Marvel"><p>Marvel Cinematic Universe</p></div>
+            <div class="card"><img src="../assets/fav show/onepis.jpg" alt="Anime"><p>One Piece</p></div>
+                        <div class="card"><img src="../assets/fav show/hamilton.jpg" alt="Musical"><p>Hamilton</p></div>
+                                    <div class="card"><img src="../assets/fav show/TGS.jpg" alt="Musical"><p>The Greatest Showman</p></div>
           </div>
         `;
         break;
@@ -46,9 +46,9 @@
         content = `
           <h1 class="glitch-text">FAV BOOKS</h1>
           <div class="card-grid">
-            <div class="card"><img src="../portfolio copy/assets/fav books/iliad.jpg" alt="Book 1"><p>Iliad</p></div>
-            <div class="card"><img src="../portfolio copy/assets/fav books/odyssey.jpg" alt="Book 2"><p>Odyssey</p></div>
-            <div class="card"><img src="../portfolio copy/assets/fav books/sherlock.jpg" alt="Book 3"><p>Sherlock Holmes</p></div>
+            <div class="card"><img src="../assets/fav books/iliad.jpg" alt="Book 1"><p>Iliad</p></div>
+            <div class="card"><img src="../assets/fav books/odyssey.jpg" alt="Book 2"><p>Odyssey</p></div>
+            <div class="card"><img src="../assets/fav books/sherlock.jpg" alt="Book 3"><p>Sherlock Holmes</p></div>
           </div>
         `;
         break;
