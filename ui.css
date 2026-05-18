@@ -880,6 +880,40 @@ body.home-page::before {
   filter: drop-shadow(0 0 12px var(--tva-amber));
 }
 
+.contact-info {
+  margin-top: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: var(--tva-amber);
+}
+
+.contact-info a {
+  color: var(--tva-orange);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-info a:hover {
+  color: var(--tva-amber);
+  text-shadow: 0 0 8px var(--tva-orange);
+}
+
+.info-icon {
+  width: 20px;
+  height: 20px;
+  filter: drop-shadow(0 0 6px var(--tva-orange));
+}
+
+
 /* Glitch effect */
 .glitch-text { position: relative; color: var(--tva-orange); animation: flicker 0.2s infinite; }
 .glitch-text::before, .glitch-text::after {
