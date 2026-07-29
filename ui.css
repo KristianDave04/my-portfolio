@@ -821,7 +821,7 @@ body.home-page {
   width: 70px;
   transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
 }
-.skills-icon div span {
+.skills-icon span {
    color: --tva-orange: #ff8c00;
 }
 .skills-icons div:hover {
