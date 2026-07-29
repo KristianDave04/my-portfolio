@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects Timeline</title>
+  <link rel="stylesheet" href="ui.css">
+  <link rel="icon" type="image/x-icon" href="assets/icons/miss-minute.ico">
+</head>
+<body class="home-page">
+
+  <a href="main.html?skipIntro=1" id="portfolio-close-btn" class="static-exit-btn">
+    <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
+    Exit Tempad
+  </a>
+
+  <!-- Miss Minutes Character -->
+  <div id="miss-minutes" class="mm-container">
+    <div class="mm-speech-bubble" id="mm-bubble"></div>
+    <div class="mm-sprite sleeping" id="mm-character"></div>
+  </div>
+
+  <!-- Ambient depth layers behind the glass -->
+  <div class="stage-backdrop"></div>
+  <div class="stage-motes">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="monitor-container">
+    <div class="monitor-rig">
+      <div class="screen-frame">
+        <div class="crt-overlay"></div>
+
+        <div class="monitor-content">
+
+          <!-- Left Terminal UI -->
+          <section class="terminal-ui">
+            <div class="terminal-ui-top">
+              <div class="temporal-aperture" aria-hidden="true">
+                <svg viewBox="0 0 100 100">
+                  <circle class="ring-outer" cx="50" cy="50" r="46"/>
+                  <circle class="ring-mid" cx="50" cy="50" r="34"/>
+                  <circle class="ring-inner" cx="50" cy="50" r="22"/>
+                  <circle class="aperture-core" cx="50" cy="50" r="5"/>
+                  <line class="tick" x1="50" y1="4" x2="50" y2="12"/>
+                  <line class="tick" x1="50" y1="88" x2="50" y2="96"/>
+                  <line class="tick" x1="4" y1="50" x2="12" y2="50"/>
+                  <line class="tick" x1="88" y1="50" x2="96" y2="50"/>
+                </svg>
+              </div>
+
+              <div class="terminal-eyebrow">TEMPAD OS // FILE: TIMELINE</div>
+
+              <!-- Grid Menu -->
+              <div class="grid-menu">
+                <div class="menu-item">
+                  <a href="main.html">
+                    <div class="menu-icon-wrap">
+                      <svg class="nav-icon" viewBox="0 0 24 24"><path d="M12 3c4 2 4 16 0 18M12 3c-4 2-4 16 0 18M4 12h16" stroke-linecap="round"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+                    </div>
+                    <span>TIMEDOOR</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="about.html">
+                    <div class="menu-icon-wrap">
+                      <svg class="nav-icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke-linecap="round"/></svg>
+                    </div>
+                    <span>MISS MINUTES</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="project.html" class="active-program">
+                    <div class="menu-icon-wrap">
+                      <svg class="nav-icon" viewBox="0 0 24 24"><path d="M4 20V10M4 10a4 4 0 0 1 4-4h4M12 6a4 4 0 0 1 4 4v10M4 6h4M16 16h4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4" cy="4" r="2" fill="currentColor"/><circle cx="20" cy="20" r="2" fill="currentColor"/></svg>
+                    </div>
+                    <span>TIMELINE</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="contact.html">
+                    <div class="menu-icon-wrap">
+                      <svg class="nav-icon" viewBox="0 0 24 24"><path d="M6 2h9l3 3v17H6z" stroke-linejoin="round"/><path d="M15 2v3h3" stroke-linejoin="round"/><path d="M9 12h6M9 16h6" stroke-linecap="round"/></svg>
+                    </div>
+                    <span>DOCUMENTS</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer Stats -->
+            <div class="footer-stats">
+              <span>05.12.2026</span>
+              <span>0231.47 // 307741</span>
+            </div>
+          </section>
+
+          <!-- Right Side -->
+          <section class="profile-card-container">
+
+            <!-- Right Panel: Scrollable Timeline -->
+            <div class="timeline-wrapper">
+              <div class="timeline-container">
+                <h1 class="glitch-text" data-text="My Project Timeline">My Project Timeline</h1>
+                <div class="timeline">
+                  <!-- glowing trunk + particles -->
+                  <div class="timeline-particles">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+
+                  <!-- Timeline Items -->
+                  <div class="timeline-item fade-in">
+                    <div class="orb"></div>
+                    <svg class="branch" viewBox="0 0 200 100" preserveAspectRatio="none">
+                      <path d="M0,50 C50,0 150,100 200,50" />
+                    </svg>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <h2>Senior Highschool</h2>
+                          <small>2024–2025</small>
+                        </div>
+                        <div class="flip-card-back">
+                          <h3>ParaDrop — Lead Developer</h3>
+                          <p>A project where I improve my coding skills for the first time as awarded as best lead programmer.</p>
+                          <a href="https://github.com/KristianDave04/ParaDrop" target="_blank">GitHub Repo</a>
+                          <img src="../portfolio copy/assets/projects/project/ParaDrop.png" alt="ParaDrop Project">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- ByteMeds -->
+                  <div class="timeline-item fade-in">
+                    <div class="orb"></div>
+                    <svg class="branch" viewBox="0 0 200 100" preserveAspectRatio="none">
+                      <path d="M0,50 C50,0 150,100 200,50" />
+                    </svg>
+                    <div class="flip-card right-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <h2>ByteMeds</h2>
+                          <small>2025–2026</small>
+                        </div>
+                        <div class="flip-card-back">
+                          <h3>ByteMeds — Lead Developer</h3>
+                          <p>A healthcare‑focused app - First project i've worked on JavaSwing, It wasnt good at all but I learned a lot.</p>
+                          <img src="../portfolio copy/assets/projects/project/ByteMeds.jpg" alt="ByteMeds Project">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- InfoTech -->
+                  <div class="timeline-item fade-in">
+                    <div class="orb"></div>
+                    <svg class="branch" viewBox="0 0 200 100" preserveAspectRatio="none">
+                      <path d="M0,50 C50,0 150,100 200,50" />
+                    </svg>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <h2>InfoTech Academy</h2>
+                          <small>2025–2026</small>
+                        </div>
+                        <div class="flip-card-back">
+                          <h3>InfoTech Academy — Lead Developer</h3>
+                          <p>A web platform for learning and sharing IT knowledge. It was my first project with a live preview and public repository.</p>
+                          <a href="https://github.com/KristianDave04/InfoTechAcademy" target="_blank">GitHub Repo</a> |
+                          <a href="https://kristiandave04.github.io/InfoTechAcademy/" target="_blank">Preview</a>
+                          <img src="../portfolio copy/assets/projects/project/InfoTech (2).png" alt="InfoTech Project">
+                          <img src="../portfolio copy/assets/projects/project/InfoTech (3).png" alt="InfoTech Project">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Snake Game -->
+                  <div class="timeline-item fade-in">
+                    <div class="orb"></div>
+                    <svg class="branch" viewBox="0 0 200 100" preserveAspectRatio="none">
+                      <path d="M0,50 C50,0 150,100 200,50" />
+                    </svg>
+                    <div class="flip-card right-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <h2>Snake Game</h2>
+                          <small>2025–2026</small>
+                        </div>
+                        <div class="flip-card-back">
+                          <h3>Snake Game — Lead Developer</h3>
+                          <p>A recreation of the classic Snake game. This project helped me practice game loops and responsive controls.</p>
+                          <a href="https://github.com/KristianDave04/Snake-Game" target="_blank">GitHub Repo</a>
+                          <img src="../portfolio copy/assets/projects/project/SnakeGame.png" alt="Snake Game Project">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Bill 'N Care -->
+                  <div class="timeline-item fade-in">
+                    <div class="orb"></div>
+                    <svg class="branch" viewBox="0 0 200 100" preserveAspectRatio="none">
+                      <path d="M0,50 C50,0 150,100 200,50" />
+                    </svg>
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <h2>Bill 'N Care</h2>
+                          <small>2025–2026</small>
+                        </div>
+                        <div class="flip-card-back">
+                          <h3>Bill 'N Care — Lead Developer</h3>
+                          <p>An improved javaSwing project for A billing and care management system. This project focused on practical applications and user‑friendly design.</p>
+                          <a href="https://github.com/KristianDave04/BillNCare" target="_blank">GitHub Repo</a>
+                          <img src="../portfolio copy/assets/projects/project/BillNCare.png" alt="Bill 'N Care Project">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Future -->
+                  <div class="timeline-item fade-in">
+                    <div class="orb"></div>
+                    <svg class="branch" viewBox="0 0 200 100" preserveAspectRatio="none">
+                      <path d="M0,50 C50,0 150,100 200,50" />
+                    </svg>
+                    <div class="flip-card right-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <h2>Future</h2>
+                          <small>Coming Soon</small>
+                        </div>
+                        <div class="flip-card-back">
+                          <h3>Future Projects</h3>
+                          <p>More projects are on the way — apps and games I'll be proud to share.</p>
+                          <img src="../portfolio copy/assets/projects/project/soon.jpg" alt="Future Projects">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="function.js"></script>
+</body>
+</html>
